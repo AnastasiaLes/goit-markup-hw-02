@@ -57,9 +57,11 @@
 }
 
 /* Hero */
+.hero {
+  background-color: var(--secondary-background-color);
+}
 .hero-title {
   color: var(--primary-white-color);
-  background-color: var(--secondary-background-color);
 
   font-family: Roboto;
   font-weight: 900;
@@ -105,6 +107,9 @@
 }
 
 /* Team */
+.team {
+  background-color: #f5f4fa;
+}
 .team-list {
   font-size: 16px;
   line-height: 1.2;
@@ -121,17 +126,17 @@
 }
 
 /* Footer */
+.footer {
+  background-color: var(--secondary-background-color);
+}
 .footer-logo {
   color: var(--primary-white-color);
-  background-color: var(--secondary-background-color);
 }
 
 .address {
   color: var(--primary-white-color);
-  background-color: var(--secondary-background-color);
 }
 
 .footer-contacts a {
   color: var(--footer-contact-color);
-  background-color: var(--secondary-background-color);
 }
