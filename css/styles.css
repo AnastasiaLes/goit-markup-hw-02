@@ -48,7 +48,7 @@
 }
 
 .site-nav a {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .site-nav a:hover,
 .site-nav a:focus {
